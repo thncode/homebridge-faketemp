@@ -1,12 +1,13 @@
 {
   "name": "homebridge-faketemp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fake temp plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },  "keywords": [
+  },
+  "keywords": [
     "homebridge-plugin"
   ],
   "engines": {
