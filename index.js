@@ -26,6 +26,8 @@ TemperatureFileAccessory.prototype.getState = function(callback) {
       callback(err);
       return
     }
+    
+    data[0] = '9';
 
     callback(null, parseFloat(data))
   })
