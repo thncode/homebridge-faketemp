@@ -27,10 +27,6 @@ TemperatureFileAccessory.prototype.getState = function(callback) {
       return
     }
     
-    this.log("Test Log");
-    
-    //data[0] = '9';
-
     callback(null, parseFloat(data))
   })
 }
